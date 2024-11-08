@@ -35,5 +35,9 @@ function init(){
     timer = setInterval(draw, interval * 1000);
 }
 
-// 初期化呼び出し 
-init();
+function main(){
+    // 初期化呼び出し
+    init();
+}
+
+main();
